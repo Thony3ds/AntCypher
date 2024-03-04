@@ -1,0 +1,1 @@
+print("CMD app")

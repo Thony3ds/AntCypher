@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AntCypher.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app_info/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app_info/Release_Notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logos/AntCypher1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logos/AntCypher2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/AntCypher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app">
+      <change afterPath="$PROJECT_DIR$/Run_App.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/Graphic_Interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709578659864</updated>
     </task>
+    <task id="LOCAL-00001" summary="Building app">
+      <option name="closed" value="true" />
+      <created>1709582444252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709582444252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Building app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app" />
   </component>
 </project>
