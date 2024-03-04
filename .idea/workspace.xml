@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app">
-      <change afterPath="$PROJECT_DIR$/Run_App.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/Graphic_Interface.py" afterDir="false" />
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,11 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709582444252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer">
+      <option name="closed" value="true" />
+      <created>1709585240712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709585240712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Building app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app" />
+    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer" />
   </component>
 </project>

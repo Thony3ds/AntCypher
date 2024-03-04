@@ -26,7 +26,7 @@ d - modifier la **Cmd_Interface.py** pour avoir une command "help" qui ouvrira u
 e - créer des paramètres avec pour l'instant juste le chemin de la méthode à utiliser\
 f - DEBUG l'app + apporter des modifs a TODO si nécessaire + Améliorer le cmd si possible
 
-## 5 Créer le cryptage de tous type de carractères (d'un clavier azerty normale)
+## 3 Créer le cryptage de tous type de carractères (d'un clavier azerty normale)
 
 a - modifier le dictionnaire de l'alphabet
 TODO - Des modification son à aporter une fois une construction globale établie
