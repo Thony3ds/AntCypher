@@ -11,6 +11,7 @@ Il est important de noter qu'il sera ajouté de la documentation de plus en plus
 c - vérifier l'import de tous les assets nécessaire pour commencer. Les autres seront ajoutées petit à petit.
 
 ## Cette partie tous les cryptage seront fait seront un input d'un phrase sans carractères spéciaux (juste lettres)
+## L'interface sera en anglais pour cette partie
 ## 1 Créer l'app le corp (non visuel):
 
 a - créer le système de base du cryptage dans [AntCypher.py](assets/scripts/AntCypher.py)\
@@ -29,14 +30,29 @@ f - DEBUG l'app + apporter des modifs a TODO si nécessaire + Améliorer le cmd 
 ## 3 Créer le cryptage de tous type de carractères (d'un clavier azerty normale)
 
 a - modifier le dictionnaire de l'alphabet
-TODO - Des modification son à aporter une fois une construction globale établie
+TODO - Des modification son à aporter une fois une construction globale établie\
 b - DEBUG l'app + apporter des modifs a TODO si nécessaire 
 
-## 4 Créer l'Interface graphique:
+## 4 Inclure une interface multilangues
+
+a - Créer des fichiers Json contenant une version française de l'appli (la docu reste en anglais pour l'instant)\
+b - Adapter les versions de langue à pouvoir être misent sur l'application graphique et sur le terminal (1 fichier par langues)\
+c - Relir pour les fautes d'orthographe dans toutes les langues
+d - DEBUG l'app + apporter des modifs a TODO si nécessaire 
+
+## _5 Modifier le TODO pour aporter des modifs/améliorations a l'app_
+## 6 Ecrire la documentation et autres fichiers
+a - écrire le README.md
+b - écrire le Release_Notes.md
+c - écrire le Help_HTU.md
+d - écrire la LICENSE.md
+e - écrire d'autres documents si nécessaire
+f - vérifier l'integralité de l'app
+
+## NUM Créer l'Interface graphique:
 
 a - Créer un GUI non relié a l'app (une base en gros) + DEBUG
 b - Lier l'app GUI au prog AntCypher de façon simple (sans style)
 c - DEBUG
 d - Ajouter des éléments de style (ex: font, ...)
-
-## 5 Continuer la création du TODO.md
+e - DEBUG l'app + apporter des modifs a TODO si nécessaire 
