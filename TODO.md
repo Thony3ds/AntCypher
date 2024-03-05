@@ -1,6 +1,5 @@
 # TODO FILE:
-# Partie en cours = 0b
-Continuer la création de TODO.md
+# Partie en cours = **_2a_** 
 
 ## 0 Créer l'architecture physique et mental:
 
@@ -40,8 +39,16 @@ b - Adapter les versions de langue à pouvoir être misent sur l'application gra
 c - Relir pour les fautes d'orthographe dans toutes les langues
 d - DEBUG l'app + apporter des modifs a TODO si nécessaire 
 
-## _5 Modifier le TODO pour aporter des modifs/améliorations a l'app_
-## 6 Ecrire la documentation et autres fichiers
+## 5 Créer le système de mise a jour
+
+a - créer une fonction qui met les fichiers modifier (settings, ...) dans un dossier safe
+b - mettre a jour l'app SI le num de version est suppérieur SINON RIEN
+c - utiliser git pour mettre a jour l'app
+d - tester la fonction de maj
+e - DEBUG l'app + apporter des modifs a TODO si nécessaire
+
+## _6 Modifier le TODO pour aporter des modifs/améliorations a l'app_
+## 7 Ecrire la documentation et autres fichiers
 a - écrire le README.md
 b - écrire le Release_Notes.md
 c - écrire le Help_HTU.md
@@ -56,3 +63,7 @@ b - Lier l'app GUI au prog AntCypher de façon simple (sans style)
 c - DEBUG
 d - Ajouter des éléments de style (ex: font, ...)
 e - DEBUG l'app + apporter des modifs a TODO si nécessaire 
+
+## NUM Costumisation de l'app:
+
+a - ajout d'un systeme pour changer la font prise (necessite une font a mettre dans assets/fonts/)

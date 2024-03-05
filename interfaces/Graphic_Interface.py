@@ -1,1 +1,2 @@
-print("Graphic App")
+def launch():
+    print("Graphic App")

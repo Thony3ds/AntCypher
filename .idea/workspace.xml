@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer" />
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Fin de création du doc TODO en phase 1.0&#10;&#10;La application n'est pas en état de démarer">
+      <change afterPath="$PROJECT_DIR$/assets/data/data_settings/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/DEFAULT.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run_App.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run_App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/AntCypher.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/AntCypher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/Graphic_Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/Graphic_Interface.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,17 +43,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.AntCypher.executor": "Run",
+    "Python.Run_App.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/logos" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run_App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AntCypher" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run_App.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Run_App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -86,12 +127,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709585342459</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Fin de création du doc TODO en phase 1.0&#10;&#10;La application n'est pas en état de démarer">
+      <option name="closed" value="true" />
+      <created>1709655855654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709655855654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Building app" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer" />
+    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Fin de création du doc TODO en phase 1.0&#10;&#10;La application n'est pas en état de démarer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Fin de création du doc TODO en phase 1.0&#10;&#10;La application n'est pas en état de démarer" />
   </component>
 </project>
