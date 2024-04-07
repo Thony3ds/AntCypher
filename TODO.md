@@ -1,7 +1,16 @@
 # TODO FILE:
 # Partie en cours = **_2a_** 
+# Pour toutes étapes regarder ALPHA !
+## ALPHA: Maj SYS:
+Mettre à jour le système de fichiers pour créer des sous programmes indépenant qui aide (et aide a la structuration du projet) :\
+a - MERGE (Systeme de mise à jour qui pourra aller dans un répértoire github pour chercher 1 fichier de maj lib request)\
+et qui pourra maj avec gitpython voir [TODO_MERGE](assets/SubPrograms/MERGE/TODO.md)\
+b - SYSFILE (Objectifs : toutes les demandes de fichiers / read JSON passe par lui)\
+c - ANTCYPHER (Concerne tout ce qui est cryptage)
+d - LANG (SYSTEME Multilangue)
+e - DATADROID (Gere l'encodage de la data)
 
-## 0 Créer l'architecture physique et mental:
+## 0 Créer l'architecture physique et mental :
 
 a - Créer une architecture globale de la structure des dossiers et fichiers +\
 créer les fichiers important (A remplir petit à petit)\
@@ -9,15 +18,15 @@ b - Etablir un TODO file avec une documentation normale sur le projet et ses ét
 Il est important de noter qu'il sera ajouté de la documentation de plus en plus détailler et que à cette étape, on a encore un point de vue globale !\
 c - vérifier l'import de tous les assets nécessaire pour commencer. Les autres seront ajoutées petit à petit.
 
-## Cette partie tous les cryptage seront fait seront un input d'un phrase sans carractères spéciaux (juste lettres)
+## Cette partie tous les cryptages seront fait seront un input d'une phrase sans carractères spéciaux (juste lettres)
 ## L'interface sera en anglais pour cette partie
-## 1 Créer l'app le corp (non visuel):
+## 1 Créer l'app le corp (non visuel) :
 
 a - créer le système de base du cryptage dans [AntCypher.py](assets/scripts/AntCypher.py)\
 b - créer une interface dans le terminal avec [Run_App.py](interfaces/Cmd_Interface.py) pour crypter puis décrypter\
-c - DEBUG l'app + apporter des modifs a TODO si nécessaire
+c - DEBUG l'app + apporter des modifs à TODO si nécessaire
 
-## 2 Renfort du corp (non visuel):
+## 2 Renfort du corp (non visuel) :
 
 a - créer un systeme de methodes avec une structure encoder spécialement dans un type de fichier spécial stocké dans [data/saved_methodes/](assets/scripts/AntCypher.py) \
 b - créer la methode de décodage et modifier **AntCypher.py** pour qu'il puisse lire l'encodage de la fonction puis l'executer.\
