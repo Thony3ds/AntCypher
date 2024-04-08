@@ -22,13 +22,13 @@ c - vérifier l'import de tous les assets nécessaire pour commencer. Les autres
 ## L'interface sera en anglais pour cette partie
 ## 1 Créer l'app le corp (non visuel) :
 
-a - créer le système de base du cryptage dans [AntCypher.py](assets/scripts/AntCypher.py)\
+a - créer le système de base du cryptage dans [AntCypher.py](assets/SubPrograms/ANTCYPHER/AntCypher.py)\
 b - créer une interface dans le terminal avec [Run_App.py](interfaces/Cmd_Interface.py) pour crypter puis décrypter\
 c - DEBUG l'app + apporter des modifs à TODO si nécessaire
 
 ## 2 Renfort du corp (non visuel) :
 
-a - créer un systeme de methodes avec une structure encoder spécialement dans un type de fichier spécial stocké dans [data/saved_methodes/](assets/scripts/AntCypher.py) \
+a - créer un systeme de methodes avec une structure encoder spécialement dans un type de fichier spécial stocké dans [data/saved_methodes/](assets/SubPrograms/ANTCYPHER/AntCypher.py) \
 b - créer la methode de décodage et modifier **AntCypher.py** pour qu'il puisse lire l'encodage de la fonction puis l'executer.\
 c - modifier **AntCypher.py** pour qu'il puisse lire des methodes celon le path désiré.
 d - modifier la **Cmd_Interface.py** pour avoir une command "help" qui ouvrira un fichier **assets/app_info/Help_HTU.md** avec une docu sur toutes les commandes\
@@ -38,7 +38,7 @@ f - DEBUG l'app + apporter des modifs a TODO si nécessaire + Améliorer le cmd 
 ## 3 Créer le cryptage de tous type de carractères (d'un clavier azerty normale)
 
 a - modifier le dictionnaire de l'alphabet
-TODO - Des modification son à aporter une fois une construction globale établie\
+TODO - Des modifications sont à aporter une fois une construction globale établie\
 b - DEBUG l'app + apporter des modifs a TODO si nécessaire 
 
 ## 4 Inclure une interface multilangues

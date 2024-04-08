@@ -1,5 +1,7 @@
+from assets.SubPrograms.ANTCYPHER import AntCypher
+from assets.SubPrograms.MERGE import merge
+
 def launch():
-    from assets.scripts import AntCypher
     print("CMD app launch...")
     print("AntCypher cmd: type help for more infos")
     command = ""
@@ -25,5 +27,8 @@ def launch():
             message = input("Input the crypted message: ")
             key = input("Input the key: ")
             print(AntCypher.decrypt(message, key))
+        elif command == "merge":
+            print("Test MERGE.get_maj() SubProgram...")
+            merge.get_maj()
         else:
             print(f"Error 404 :(\nNo found command: {command}")
