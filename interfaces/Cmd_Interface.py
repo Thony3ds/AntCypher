@@ -22,11 +22,11 @@ def launch():
             print("! Warning ! Use this command can corrupt your data because some data can be not save.\nPlease use exit to be sure to save all data.")
         elif command == "crypt":
             message = input("Input the message: ")
-            key = input("Input the key: ")
+            key = int(input("Input the key (number): "))
             print(AntCypher.crypt(message, key))
         elif command == "decrypt":
             message = input("Input the crypted message: ")
-            key = input("Input the key: ")
+            key = int(input("Input the key (number): "))
             print(AntCypher.decrypt(message, key))
         elif command == "methode":
             var = input("Input your methode.json file path or DEFAULT: ")
