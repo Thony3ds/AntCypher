@@ -1,5 +1,8 @@
+from assets.SubPrograms.ANTCYPHER import AntCypher
+from assets.SubPrograms.MERGE import merge
+from assets.SubPrograms.DATADROID import datadroid
+
 def launch():
-    from assets.scripts import AntCypher
     print("CMD app launch...")
     print("AntCypher cmd: type help for more infos")
     command = ""
@@ -19,11 +22,18 @@ def launch():
             print("! Warning ! Use this command can corrupt your data because some data can be not save.\nPlease use exit to be sure to save all data.")
         elif command == "crypt":
             message = input("Input the message: ")
-            key = input("Input the key: ")
+            key = int(input("Input the key (number): "))
             print(AntCypher.crypt(message, key))
         elif command == "decrypt":
             message = input("Input the crypted message: ")
-            key = input("Input the key: ")
+            key = int(input("Input the key (number): "))
             print(AntCypher.decrypt(message, key))
+        elif command == "methode":
+            var = input("Input your methode.json file path or DEFAULT: ")
+            if var == "DEFAULT":
+                var = "assets/data/saved_methodes/default_methode.json"
+            else:
+                var = f"assets/data/saved_methode/{var}"
+            datadroid.modify_settings("used_methode", var)
         else:
             print(f"Error 404 :(\nNo found command: {command}")

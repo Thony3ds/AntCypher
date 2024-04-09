@@ -1,6 +1,24 @@
-def decode_methode(methode): # TODO build function
-    decoded_methode = []
-    return decoded_methode
+import json
+
+def apply_custom_methode(x, methode):
+    calcul = decode_methode(methode)
+    to_return = int()
+    # Remplacer 'x' dans l'expression par sa valeur
+    expression = calcul.replace('x', str(x))
+
+    # Évaluer l'expression
+    try:
+        resultat = eval(expression)
+    except Exception as e:
+        print(f"Error no correct methode: {e}")
+
+def load_json_element(file_path, element_key):
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+        return data.get(element_key)
+
+def decode_methode(methode):
+    return load_json_element(methode, "methode")
 
 def creer_dictionnaire():
     dictionnaire = {}
@@ -24,6 +42,7 @@ def crypt(message, cle):
             caractere_crypte = list(dictionnaire.keys())[list(dictionnaire.values()).index(code_caractere)]
             message_crypte += caractere_crypte
         else:
+            print("Error: a unknown letter have been detected !")
             message_crypte += lettre
     return message_crypte
 
