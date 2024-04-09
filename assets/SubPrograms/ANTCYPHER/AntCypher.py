@@ -76,5 +76,6 @@ def decrypt(message_crypte, cle, methode=datadroid.get_settings("used_methode"))
             caractere_clair = list(dictionnaire.keys())[list(dictionnaire.values()).index(code_caractere)]
             message_clair += caractere_clair
         else:
+            print("Error: a unknown letter have been detected !")
             message_clair += lettre
     return message_clair
