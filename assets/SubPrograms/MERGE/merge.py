@@ -6,7 +6,7 @@ def get_maj():
     repo_dir = f"{os.getcwd()}/assets/SubPrograms/MERGE/update/"
     Repo.clone_from(repo_url, repo_dir)
     time.sleep(1)
-    shutil.move("assets/SubPrograms/MERGE/update/updates.json", "assets/SubPrograms/MERGE/update_receiver/updates.json")
+    shutil.move("assets/SubPrograms/MERGE/update/updates.json", "assets/SubPrograms/MERGE/system_version/updates.json")
     shutil. rmtree(f"{os.getcwd()}/assets/SubPrograms/MERGE/update/")
     #compare updates.json avec l'ancien json qui s'appellera: app_version.json pour chercher les maj
     # to_update = list()

@@ -1,5 +1,6 @@
 from assets.SubPrograms.ANTCYPHER import AntCypher
 from assets.SubPrograms.MERGE import merge
+from assets.SubPrograms.DATADROID import datadroid
 
 def launch():
     print("CMD app launch...")
@@ -27,8 +28,12 @@ def launch():
             message = input("Input the crypted message: ")
             key = input("Input the key: ")
             print(AntCypher.decrypt(message, key))
-        elif command == "merge":
-            print("Test MERGE.get_maj() SubProgram...")
-            merge.get_maj()
+        elif command == "methode":
+            var = input("Input your methode.json file path or DEFAULT: ")
+            if var == "DEFAULT":
+                var = "assets/data/saved_methodes/default_methode.json"
+            else:
+                var = f"assets/data/saved_methode/{var}"
+            datadroid.modify_settings("used_methode", var)
         else:
             print(f"Error 404 :(\nNo found command: {command}")
