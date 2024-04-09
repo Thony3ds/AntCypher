@@ -33,7 +33,7 @@ def launch():
             if var == "DEFAULT":
                 var = "assets/data/saved_methodes/default_methode.json"
             else:
-                var = f"assets/data/saved_methode/{var}"
+                var = f"assets/data/saved_methodes/{var}"
             datadroid.modify_settings("used_methode", var)
         else:
             print(f"Error 404 :(\nNo found command: {command}")

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;avancer de l'etape 2a&#10;&#10;ALPHA MAJ:&#10;Création du sous programme MERGE et DATADROID en cour&#10;&#10;La application est en état de démarer seulement en mod cmd interface">
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface">
+      <change afterPath="$PROJECT_DIR$/assets/data/saved_methodes/default_methodes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,25 +21,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Thony3ds&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Thony3ds/AntCypher.git&quot;,
-    &quot;accountId&quot;: &quot;fbd974b4-9227-4fd0-a0ef-ead72923027a&quot;
-  }
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,16 +42,12 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Python.AntCypher.executor&quot;: &quot;Run&quot;,
     &quot;Python.Run_App.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merge.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;2nd__computer&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/SubPrograms/ANTCYPHER" />
       <recent name="$PROJECT_DIR$/assets/logos" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -98,15 +78,13 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Run_App" />
-        <item itemvalue="Python.Run_App" />
-        <item itemvalue="Python.Run_App" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -159,35 +137,8 @@
       <option name="project" value="LOCAL" />
       <updated>1709660097511</updated>
     </task>
-    <task id="LOCAL-00006" summary="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;ALPHA MAJ:&#10;Création du sous programme MERGE en cour&#10;&#10;La application est en état de démarer seulement en mod cmd interface">
-      <option name="closed" value="true" />
-      <created>1712600735684</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1712600735684</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;avancer de l'etape 2a&#10;&#10;ALPHA MAJ:&#10;Création du sous programme MERGE et DATADROID en cour&#10;&#10;La application est en état de démarer seulement en mod cmd interface">
-      <option name="closed" value="true" />
-      <created>1712662513338</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1712662513338</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -195,8 +146,6 @@
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Fin de création du doc TODO en phase 1.0&#10;&#10;La application n'est pas en état de démarer" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
-    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;ALPHA MAJ:&#10;Création du sous programme MERGE en cour&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
-    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;avancer de l'etape 2a&#10;&#10;ALPHA MAJ:&#10;Création du sous programme MERGE et DATADROID en cour&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;avancer de l'etape 2a&#10;&#10;ALPHA MAJ:&#10;Création du sous programme MERGE et DATADROID en cour&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
   </component>
 </project>
