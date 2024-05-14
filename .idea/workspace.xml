@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface">
-      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/ANTCYPHER/AntCrypt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/ANTCYPHER/AntDecrypt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toto.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/ANTCYPHER/AntCypher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/data/saved_methodes/custom_methode1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/data/saved_methodes/default_methode.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" afterDir="false" />
-    </list>
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709660097511</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable">
+      <option name="closed" value="true" />
+      <created>1715686135019</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715686135019</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +176,7 @@
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Début de création du TODO.md avec vue minimal&#10;&#10;La application n'est pas en état de démarer" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Fin de création du doc TODO en phase 1.0&#10;&#10;La application n'est pas en état de démarer" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
+    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable" />
   </component>
 </project>
