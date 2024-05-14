@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface">
-      <change afterPath="$PROJECT_DIR$/assets/data/saved_methodes/default_methodes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/ANTCYPHER/AntCrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/ANTCYPHER/AntDecrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toto.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/ANTCYPHER/AntCypher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/saved_methodes/custom_methode1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/saved_methodes/default_methode.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Thony3ds&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Thony3ds/AntCypher.git&quot;,
+    &quot;accountId&quot;: &quot;fbd974b4-9227-4fd0-a0ef-ead72923027a&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,7 +62,9 @@
     &quot;Python.AntCypher.executor&quot;: &quot;Run&quot;,
     &quot;Python.Run_App.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -84,7 +105,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -139,6 +160,17 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

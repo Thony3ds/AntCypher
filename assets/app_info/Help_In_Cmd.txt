@@ -1,11 +1,4 @@
-# AntCypher Help
-## Summary:
-### 1- Cmd Help
-### 2- Graphical app Help
-
-### 1- Cmd Help
-
-Command list:
+Cmd commands:
 
 exit (close the app)
 quit (close the app)

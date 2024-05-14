@@ -1,5 +1,5 @@
 # TODO FILE:
-# Partie en cours = **_2a_** 
+# Partie en cours = **_4a_** 
 # Pour toutes étapes regarder ALPHA !
 ## ALPHA: Maj SYS:
 Mettre à jour le système de fichiers pour créer des sous programmes indépenant qui aide (et aide a la structuration du projet) :\
@@ -22,17 +22,20 @@ c - vérifier l'import de tous les assets nécessaire pour commencer. Les autres
 ## L'interface sera en anglais pour cette partie
 ## 1 Créer l'app le corp (non visuel) :
 
-a - créer le système de base du cryptage dans [AntCypher.py](assets/SubPrograms/ANTCYPHER/AntCypher.py)\
+a - créer le système de base du cryptage dans [AntCypher.py](assets/SubPrograms/ANTCYPHER/AntCrypt.py)\
 b - créer une interface dans le terminal avec [Run_App.py](interfaces/Cmd_Interface.py) pour crypter puis décrypter\
 c - DEBUG l'app + apporter des modifs à TODO si nécessaire
 
 ## 2 Renfort du corp (non visuel) :
 
-a - créer un systeme de methodes avec une structure encoder spécialement dans un type de fichier spécial stocké dans [data/saved_methodes/](assets/SubPrograms/ANTCYPHER/AntCypher.py) \
+a - créer un systeme de methodes avec une structure encoder spécialement dans un type de fichier spécial stocké dans [data/saved_methodes/](assets/SubPrograms/ANTCYPHER/AntCrypt.py) \
 b - créer la methode de décodage et modifier **AntCypher.py** pour qu'il puisse lire l'encodage de la fonction puis l'executer.\
-c - modifier **AntCypher.py** pour qu'il puisse lire des methodes celon le path désiré.
+c - modifier **AntCypher.py** pour qu'il puisse lire des methodes celon le path désiré.\
+
+INFO - 2abc ont été modifié le plan n'est plus celui utilisé\
+
 d - modifier la **Cmd_Interface.py** pour avoir une command "help" qui ouvrira un fichier **assets/app_info/Help_HTU.md** avec une docu sur toutes les commandes\
-e - créer des paramètres avec pour l'instant juste le chemin de la méthode à utiliser\
+e - créer des paramètres ... N'est plus dans la liste\
 f - DEBUG l'app + apporter des modifs a TODO si nécessaire + Améliorer le cmd si possible
 
 ## 3 Créer le cryptage de tous type de carractères (d'un clavier azerty normale)
