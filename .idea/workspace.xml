@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/langs/cmd/french.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/langs/cmd/french.json" afterDir="false" />
-    </list>
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715687499524</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer">
+      <option name="closed" value="true" />
+      <created>1716292078567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716292078568</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
