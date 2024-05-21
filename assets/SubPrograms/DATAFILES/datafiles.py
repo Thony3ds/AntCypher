@@ -18,7 +18,7 @@ def modify_json(to_modify, value, file="assets/data/data_settings/settings.json"
         json.dump(data, json_file, indent=4)
         json_file.truncate()
     print("Saving succefuly !")
-def get_json(to_get, file="assets/data/data_settings/settings.json"):
+def get_json(to_get, file="assets/data/data_settings/settings.json"): #Change file for langs
     with open(file, 'r') as json_file:
         data = json.load(json_file)
         return data.get(to_get)
