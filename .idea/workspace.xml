@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable">
-      <change afterPath="$PROJECT_DIR$/assets/langs/cmd/english.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/langs/cmd/french.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/DATADROID/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/SubPrograms/DATADROID/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/LANG/TODO.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/SYSFILE/TODO.md" beforeDir="false" />
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/langs/cmd/french.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/langs/cmd/french.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +49,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.AntCypher.executor": "Run",
-    "Python.Run_App.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/kali/PycharmProjects/AntCypher/assets/langs/cmd",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.AntCypher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Run_App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kali/PycharmProjects/AntCypher/assets/langs/cmd&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/langs/cmd" />
@@ -174,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715686167493</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer">
+      <option name="closed" value="true" />
+      <created>1715687499524</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715687499524</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +200,7 @@
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = Ob:&#10;&#10;A été réalisé: Fin de création du doc TODO en phase 1.0&#10;&#10;La application n'est pas en état de démarer" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable" />
+    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
   </component>
 </project>

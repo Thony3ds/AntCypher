@@ -1,7 +1,7 @@
 {
   "cmd_launch": "CMD app launch...", "cmd_launch2": "AntCypher cmd: type help for more infos", "exit_question": "Do you want to exit Y/n ?",
-  "exit_cancel": "Exit have been canceled", "closing_app": "Closing app...", "closing_app2": "! Warning ! Use this command can corrupt your data because some data can be not save.\nPlease use exit to be sure to save all data.",
+  "exit_cancel": "Exit have been canceled", "closing_app": "Closing app...", "closing_app2": "! Warning ! Use this command can corrupt your data because some data can be not save. Please use exit to be sure to save all data.",
   "crypt1": "Input the file path: ", "crypt2": "Input the output file name: ", "crypt3": "Input the method name: ", "crypt4": "Input the key (If needed): ",
   "decrypt1": "Input the file path: ", "decrypt2": "Input the output file name: ", "decrypt3": "Input the method name: ", "decrypt4": "Input the key (If needed): ",
-  "error404": "Error 404 :(\\nNo found command: "
+  "error404": "Error 404 :( No found command: ", "change_lang": "Chose your language: "
 }
