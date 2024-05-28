@@ -1,5 +1,5 @@
 # TODO FILE:
-# Partie en cours = **_4a_** 
+# Partie en cours = **_5a_** 
 # Pour toutes étapes regarder ALPHA !
 ## ALPHA: Maj SYS:
 Mettre à jour le système de fichiers pour créer des sous programmes indépenant qui aide (et aide a la structuration du projet) :\
@@ -48,7 +48,7 @@ b - DEBUG l'app + apporter des modifs a TODO si nécessaire
 
 a - Créer des fichiers Json contenant une version française de l'appli (la docu reste en anglais pour l'instant)\
 b - Adapter les versions de langue à pouvoir être misent sur l'application graphique et sur le terminal (1 fichier par langues)\
-c - Relir pour les fautes d'orthographe dans toutes les langues
+c - Relir pour les fautes d'orthographe dans toutes les langues\
 d - DEBUG l'app + apporter des modifs a TODO si nécessaire 
 
 ## 5 Créer le système de mise a jour

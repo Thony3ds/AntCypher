@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/MERGE/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/MERGE/system_version/app_version.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/system_version/app_version.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +104,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -184,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716292078568</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission">
+      <option name="closed" value="true" />
+      <created>1716292105696</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716292105696</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission">
+      <option name="closed" value="true" />
+      <created>1716292273813</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716292273813</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +227,7 @@
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 2a:&#10;&#10;Création du système de cryptage/decryptage + interface de lancement de l'app et du cmd interface&#10;&#10;La application est en état de démarer seulement en mod cmd interface" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
+    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission" />
   </component>
 </project>
