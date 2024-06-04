@@ -39,5 +39,7 @@ def launch():
                 datafiles.modify_json(to_modify="language", value=question)
             else:
                 print("Error 404")
+        elif command == "update":
+            merge.get_maj()
         else:
             print(datafiles.get_json("error404", datafiles.get_json("language")), command)

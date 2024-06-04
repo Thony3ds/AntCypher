@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission">
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge">
+      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/system_version/update.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/SubPrograms/MERGE/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/SubPrograms/MERGE/system_version/app_version.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/system_version/app_version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +52,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.AntCypher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Run_App.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kali/PycharmProjects/AntCypher/assets/langs/cmd&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.AntCypher.executor": "Run",
+    "Python.Run_App.executor": "Run",
+    "Python.merge.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/kali/PycharmProjects/AntCypher/assets/langs/cmd",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/langs/cmd" />
@@ -205,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716292273813</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge">
+      <option name="closed" value="true" />
+      <created>1716897275620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716897275621</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +238,7 @@
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission" />
+    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge" />
   </component>
 </project>

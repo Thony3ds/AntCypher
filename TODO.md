@@ -79,3 +79,6 @@ e - DEBUG l'app + apporter des modifs a TODO si nécessaire
 ## NUM Costumisation de l'app:
 
 a - ajout d'un systeme pour changer la font prise (necessite une font a mettre dans assets/fonts/)
+
+
+Changer merge.py pour mettre le get_maj en raw sur system_version.json
