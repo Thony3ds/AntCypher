@@ -1,3 +1,5 @@
 {
-    "language": "assets/langs/cmd/french.json", "save_folder": ""
+    "language": "assets/langs/cmd/french.json",
+    "save_folder": "/home/antho/.local/share/AntCypher/",
+    "app_dir": "/home/antho/PycharmProjects/AntCypher/"
 }

@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge">
-      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/system_version/update.json" afterDir="false" />
+    <list default="true" id="dc929bec-1e43-479e-909c-895d38d0c316" name="Changes" comment="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge&#10;&#10;Fichier d'installation terminer">
+      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/BUS_updater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/update" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AntCypher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AntCypher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Install_App.py" beforeDir="false" afterPath="$PROJECT_DIR$/Install_App.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/SubPrograms/MERGE/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/SubPrograms/MERGE/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/data_settings/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/data/data_settings/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/Cmd_Interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Thony3ds/AntCypher.git&quot;,
-    &quot;accountId&quot;: &quot;fbd974b4-9227-4fd0-a0ef-ead72923027a&quot;
+    &quot;accountId&quot;: &quot;e70685bb-4434-44e4-941d-7142d4278e51&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -56,8 +61,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.AntCypher.executor": "Run",
+    "Python.Install_App.executor": "Run",
     "Python.Run_App.executor": "Run",
-    "Python.merge.executor": "Run",
+    "Python.merge.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -74,7 +80,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Run_App">
     <configuration name="Run_App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AntCypher" />
       <option name="ENV_FILES" value="" />
@@ -97,16 +103,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AntCypher" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assets/SubPrograms/MERGE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assets/SubPrograms/MERGE/merge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Run_App" />
+        <item itemvalue="Python.merge" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -215,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716897275621</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge&#10;&#10;Fichier d'installation terminer">
+      <option name="closed" value="true" />
+      <created>1721643649381</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721643649381</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +276,7 @@
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;English.json créer" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 4a:&#10;&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang en finission" />
     <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge" />
+    <MESSAGE value="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge&#10;&#10;Fichier d'installation terminer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building app&#10;&#10;Etape de TODO.md = 5a:&#10;&#10;Système de mise a jour en création&#10;Tous les cryptages a tester:&#10;AppCmd = stable&#10;Systeme multi lang a adapter pour merge&#10;&#10;Fichier d'installation terminer" />
   </component>
 </project>

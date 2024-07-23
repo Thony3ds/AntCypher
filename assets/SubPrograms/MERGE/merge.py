@@ -1,5 +1,6 @@
 import os, shutil, time, json, requests # os.getcwd() = actual file
 from git import Repo
+from assets.SubPrograms.DATAFILES import datafiles
 def get_maj():
     print("Search for updates...")
     # Remplacez 'URL_DU_FICHIER_RAW' par le lien raw du fichier que vous souhaitez cloner
@@ -20,11 +21,16 @@ def get_maj():
             update = json.load(updates)
             if sys_ver["version"] < update["version"]:
                 question = input("New update is available do you want to do the update ? Y/n: ")
-                if question == "Y":
+                if question == "Y" or question == "O":
                     print("Updating...")
                     update_app()
                 else:
-                    print("Update is important do it when you be ready")
+                    print("Updates are important do it when you be ready")
+
+def copy_file(source_path, destination_path):
+    with open(source_path, 'rb') as source_file:
+        with open(destination_path, 'wb') as destination_file:
+            destination_file.write(source_file.read())
 
 def update_app():
     print("Update app...")
@@ -32,3 +38,7 @@ def update_app():
     repo_dir = f"{os.getcwd()}/assets/SubPrograms/MERGE/update/"
     Repo.clone_from(repo_url, repo_dir)
     time.sleep(1)
+    temp_dir = datafiles.get_json(to_get="save_folder")
+    copy_file(source_path=f"{os.getcwd()}/assets/data/data_settings/settings.json", destination_path=f"{temp_dir}settings.json")
+    copy_file(source_path=f"{os.getcwd()}/assets/SubPrograms/MERGE/BUS_updater.py", destination_path=f"{temp_dir}BUS_updater.py")
+    shutil.copytree(f"{os.getcwd()}/assets/SubPrograms/MERGE/update/", f"{temp_dir}update/")

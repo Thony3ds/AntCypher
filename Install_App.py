@@ -20,11 +20,13 @@ def save_folder_default():
     if data.os_name == "Windows":
         return f"C:/Users/{data.user_name}/AppData/Local/AntCypher/"
     elif data.os_name == "Linux":
-        return f"home/{data.user_name}/.local/share/AntCypher/"
+        return f"/home/{data.user_name}/.local/share/AntCypher/"
     elif data.os_name == "Darwin": # (Mac OS)
         return f"/Users/{data.user_name}/Library/Application Support/AntCypher/"
     else:
         raise ValueError("Unsupported operating system")
+
+data.save_data = save_folder_default()
 
 def select_folder():
     folder_selected = filedialog.askdirectory()
@@ -67,9 +69,15 @@ def on_custom_checked():
         data.default_var.set(False)
         data.select_file.config(state='normal')
 
+def end_bu():
+    app.quit()
+
 def page3():
     data.progress_bar.step(data.bar_step)
-    #datafiles.modify_json(to_modify="save_folder", value=data.save_data)
+    #Apply lasts changes in settings
+    datafiles.modify_json(to_modify="save_folder", value=data.save_data)
+    datafiles.modify_json(to_modify="app_dir", value=f"{os.getcwd()}/")
+    os.mkdir(data.save_data)
     data.lab1.config(text="Page 3")
     data.default_check.destroy()
     data.custom_check.destroy()
@@ -83,12 +91,12 @@ def page3():
         lab_txt = "Everything is ok !"
     lab = tk.Label(app, text=lab_txt)
     lab.pack()
-    bu = tk.Button(app, text="Ok", command=app.quit)
+    bu = tk.Button(app, text="Ok", command=end_bu)
     bu.pack()
 
 def page2():
     data.progress_bar.step(data.bar_step)
-    #datafiles.modify_json(to_modify="language", value=data.langue)
+    datafiles.modify_json(to_modify="language", value=data.langue)
     if data.langue == "français":
         lab1_text = "Choisissez un dossier de sauvegarde (Pas situer dans le dossier de l'application)"
         bu2_txt = "Valider"

@@ -40,6 +40,7 @@ def launch():
             else:
                 print("Error 404")
         elif command == "update":
-            merge.get_maj()
+            #merge.get_maj() TODO remove
+            merge.update_app()
         else:
             print(datafiles.get_json("error404", datafiles.get_json("language")), command)
